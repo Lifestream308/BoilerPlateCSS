@@ -1,0 +1,86 @@
+/* CSS for Personal Profile */
+
+* {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body {
+    height: 100%; width: 100%;
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.spaceBetween {
+    justify-content: space-between;
+}
+.spaceAround {
+    justify-content: space-around;
+}
+.spaceCenter {
+    justify-content: center;
+}
+.alignCenter {
+    align-items: center;
+}
+.textCenter {
+    text-align: center;
+}
+
+/* Custom Configurations */
+
+/* Margin / Padding Section */
+.marginLeft1 {
+    margin-left: 3%;
+}
+.marginRight1 {
+    margin-right: 3%;
+}
+.margin1 {
+    margin: 2rem;
+}
+.margin2 {
+    margin: 1rem 2rem 2rem 2rem;
+}
+.margin3 {
+    margin: 2rem 2rem 0 2rem;
+}
+.margin4 {
+    margin: 0 2rem;
+}
+.padding1 {
+    padding: 2rem;
+}
+.padding2 {
+    padding: 2rem 0rem;
+}
+
+
+
+
+
+    
+/* Media Queries */
+@media (max-width: 875px) {
+    .intro-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 750px) {
+    .standardNav {
+        display: none;
+    }
+    .dropDownContainer {
+        display: block;
+    }  
+}
